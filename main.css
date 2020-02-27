@@ -1,0 +1,216 @@
+body{
+  background-color: #171f26;
+}
+
+.box {
+  margin-top :20px;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+/* mobile */
+.objective{
+  font-size: 15px;
+  color: #BABDBF;
+  font-family: 'Inconsolata', monospace;
+  text-align-last: left;
+}
+.name{
+  font-size: 18px;
+  color: #BF9F63;
+}
+
+.icon{
+  padding:5%;
+}
+
+/* reume icon */
+.resume{
+  font-size: 12px;
+  color: #BABDBF;
+  font-family: 'Inconsolata', monospace;
+  position:absolute;
+  text-align: right;
+  top:35px;
+  right: 10px;
+  transform: translate(-50%, -50%);
+  margin: 0
+}
+.resume:hover{
+  color: #BF9F63;
+}
+
+.email{
+  writing-mode: vertical-rl;
+  color: #BABDBF;
+  font-size: 12px;
+  text-decoration:none;
+  font-family: 'Inconsolata', monospace;
+  position:absolute;
+  top:48%;
+  right: 4%;
+  transform: rotate(360deg);
+  margin: 0
+}
+a:hover, a:active{
+  color: #BF9F63;
+  text-decoration:none
+}
+
+
+.launch{
+  writing-mode: vertical-rl;
+  color: #BABDBF;
+  font-size: 12px;
+  font-family: 'Inconsolata', monospace;
+  position:absolute;
+  top:50%;
+  transform: rotate(180deg);
+  margin: 0
+}
+
+/* google scholar */
+.scholar img:first-child{
+  position:absolute;
+  left:30%;
+  bottom: 30px;
+  display:inline-block;
+}
+.scholar:hover img:first-child{
+  position:absolute;
+  left:30%;
+  bottom: 30px;
+  display:none;
+}
+.scholar img:last-child{
+  position:absolute;
+  left:30%;
+  bottom: 30px;
+  display:none;
+}
+.scholar:hover img:last-child{
+  position:absolute;
+  left:30%;
+  bottom: 30px;
+  display:inline-block;
+}
+
+/* linkedin link */
+.linkedin img:first-child{
+  position:absolute;
+  left:50%;
+  bottom:30px;
+  display:inline-block;
+}
+.linkedin:hover img:first-child{
+  position:absolute;
+  left:50%;
+  bottom:30px;
+  display:none;
+}
+.linkedin img:last-child{
+  position:absolute;
+  left:50%;
+  bottom:30px;
+  display:none;
+}
+.linkedin:hover img:last-child{
+  position:absolute;
+  left:50%;
+  bottom:30px;
+  display:inline-block;
+}
+
+
+/* github link */
+.github img:first-child{
+  position:absolute;
+  left:70%;
+  bottom:30px;
+  display:inline-block;
+}
+.github:hover img:first-child{
+  position:absolute;
+  left:70%;
+  bottom:30px;
+  display:none;
+}
+.github img:last-child{
+  position:absolute;
+  left:70%;
+  bottom:30px;
+  display:none;
+}
+.github:hover img:last-child{
+  position:absolute;
+  left:70%;
+  bottom:30px;
+  display:inline-block;
+}
+
+/* tablet potrait */
+@media only screen and (min-width :768px) {
+  .box {
+    margin-top :20px;
+    margin-left: 90px;
+    margin-right: 90px;
+  }
+
+  /* mobile */
+  .objective{
+    font-size: 25px;
+    color: #BABDBF;
+    font-family: 'Inconsolata', monospace;
+    text-align-last: left;
+  }
+  .name{
+    font-size: 28px;
+    color: #BF9F63;
+  }
+
+
+  .resume{
+     position: absolute;
+     font-size: 14px;
+     top: 50px;
+     right: 23px;
+  }
+
+  .email{
+    font-size:14px;
+  }
+
+  .launch{
+    font-size:14px;
+    left: 2%;
+  }
+}
+
+/* laptop */
+@media only screen and (min-width :1024px) {
+  .icon{
+      padding:3%;
+    }
+  .box {
+     margin-top :50px;
+     margin-left: 170px;
+     margin-right: 170px;
+  }
+  .resume{
+      position: absolute;
+      font-size: 14px;
+      top: 65px;
+      right: 23px;
+   }
+  .email{
+    right: 2%;
+    top:46%;
+  }
+
+  .launch{
+    left: 1%;
+    top:50%;
+  }
+
+
+}
